@@ -974,11 +974,6 @@ img {
     font-size: 12px;
   }
 
-  /* Hero */
-  .hero {
-    padding: 112px 0;
-  }
-
   .hero-title {
     font-size: 56px;
     line-height: 1.07;
@@ -1045,15 +1040,18 @@ img {
   }
 }
 
-/* ============================================================
-   MASAÜSTÜ — 1158px
-   ============================================================ */
+/*MASAÜSTÜ — 1158px*/
 @media screen and (min-width: 1158px) {
   .container {
     max-width: 1158px;
     padding: 0 15px;
   }
-
+   
+    .hero {
+      padding: 188px;
+      background: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+        url("../images/img-1.jpg") no-repeat center / cover;
+    }
   /* Section ve Team padding */
   .section {
     padding: 120px 0;
@@ -1074,10 +1072,6 @@ img {
     font-size: 16px;
   }
 
-  /* Hero */
-  .hero {
-    padding: 188px 0;
-  }
 
   /* İkonlar göster */
   .future-icon-container {
@@ -1126,12 +1120,4 @@ img {
 /* ============================================================
    RETINA ARKA PLAN (Yüksek Çözünürlük)
    ============================================================ */
-@media screen and (min-resolution: 192dpi) {
-  .hero {
-    background-image: linear-gradient(
-        rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)
-      ),
-      url("../images/img-1@2x.jpg");
-  }
-}
+
